@@ -12,6 +12,7 @@ Summary: Pure python implementation of ROUGE-1.5.5.
 A naive python implementation of the original perl package, ROUGE from Google-Research.
 
 
+
 This is a native python implementation of ROUGE, designed to replicate results from the original perl package.
 
 Maintainers may be contacted at [rouge-opensource@google.com](mailto:rouge-opensource@google.com).
@@ -19,6 +20,7 @@ Maintainers may be contacted at [rouge-opensource@google.com](mailto:rouge-opens
 ROUGE was originally introduced in the paper:
 
 Lin, Chin-Yew. ROUGE: a Package for Automatic Evaluation of Summaries. In Proceedings of the Workshop on Text Summarization Branches Out (WAS 2004), Barcelona, Spain, July 25 - 26, 2004.
+
 
 
 There are ROUGE implementations available for Python, however some are not native python due to their dependency on the perl script, and others provide differing results when compared with the original implementation. This makes it difficult to directly compare with known results.
@@ -122,7 +124,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
